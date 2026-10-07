@@ -1,0 +1,7 @@
+build/
+dist/
+installer/
+__pycache__/
+*.spec
+# 176MB: 처음 배경 제거를 실행하면 rembg가 models/ 에 자동으로 내려받음
+models/u2net.onnx
