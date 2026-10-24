@@ -6,7 +6,11 @@
 3. 영상과 소리를 합치려면 ffmpeg가 필요해요 (https://ffmpeg.org 에서 받아 설치)
    - 윈도우: 명령 창에 `winget install ffmpeg`
 
-## 사용
+## 가장 쉬운 사용법
+1. `설치.bat` 더블클릭 (처음 한 번만)
+2. `실행.bat` 더블클릭 → 창이 뜨면 주소 붙여넣고 [다운로드] 클릭
+
+## 명령 창으로 쓰기
 - `python download.py` 실행 후 주소 붙여넣기
 - 소리만 받기: `python download.py 주소 --mp3`
 - 저장 위치: 내 컴퓨터의 `다운로드\유튜브` 폴더
